@@ -1,0 +1,65 @@
+html{
+  scroll-behavior: smooth;
+}
+:root{
+--color-header:linear-gradient(90deg, rgba(168,94,242,1) 0%, rgba(169,70,255,1) 35%, rgba(48,220,255,1) 100%);
+--white:#fefefe;
+--gray:#212121;
+--black:#535052;
+--pink: linear-gradient(0deg, rgba(140,107,231,1) 0%, rgba(22,15,19,1) 100%);
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-image: url(./images/final.jpg);
+  background-position: 50% 90%;
+  background-size: cover;
+  background-attachment:fixed;
+  padding: 100px;
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  padding-block-start: 30px;
+  color:var(--white);
+}
+p{
+   margin-block-start: 10px;
+   font-weight: bold;
+   color:var(--white);
+}
+
+.cardPromises{
+  margin-block: 20px;
+  display: flex;
+  overflow-x: scroll;
+
+}
+.card{
+   min-width: 200px;
+   height: 270px;
+   border-radius: 5px;
+   background: var(--pink);
+   margin-inline: 10px;
+   padding-inline: 20px;
+   text-align: center;
+   color: var(--white);
+}
+
+img{
+  width: 170px;
+  height: 200px;
+  margin-inline: 15px;
+  border-radius: 170px;
+  margin-block: 10px;
+}
+h2{
+  font-weight: bold;
+  margin-block-end: 5px;
+}
